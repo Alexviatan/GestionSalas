@@ -11,7 +11,5 @@ import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
 @EnableJpaRepositories(basePackages = {"co.edu.ue.jpa"})
 @ComponentScan(basePackages = {"co.edu.ue.controller","co.edu.ue.dao", "co.edu.ue.service"})
 public class GestionDataBaseAplication {
-	public static void main(String[] args) {
-        SpringApplication.run(GestionDataBaseAplication.class, args);
-    }
+
 }
